@@ -104,5 +104,72 @@
       "https://huggingface.co/TheBloke/deepseek-coder-6.7B-base-GGUF/resolve/main/deepseek-coder-6.7b-base.Q8_0.gguf"
     ],
     "sha256": "a2f82242ac5e465037cbf1ed754f04f0be044ee196e1589905f9e4dcd0e6559d"
+  },
+  {
+    "name": "Magicoder-S-DS-6.7B",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/ise-uiuc/magicoder/blob/main/LICENSE",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/spaces/ise-uiuc/Magicoder-S-DS-6.7B",
+    "urls": [
+      "https://huggingface.co/TheBloke/Magicoder-S-DS-6.7B-GGUF/resolve/main/magicoder-s-ds-6.7b.Q8_0.gguf"
+    ],
+    "sha256": "45e6b4c4ab2a44541c5f328c13232c9ab2ec4008ffc9a563e73ceca875240868"
+  },
+  {
+    "name": "CodeLlama-70B",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-70b-hf",
+    "license_name": "Llama 2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+    "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
+    "urls": [
+      "https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q8_0.gguf-split-a",
+      "https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q8_0.gguf-split-b"
+    ],
+    "sha256": "fedd4671a091edb12cbd2fa8686bd83b0b0b7f30a933616f2d2f8b417761d3e2"
+  },
+  {
+    "name": "CodeLlama-70B4bit",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-70b-hf",
+    "license_name": "Llama 2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+    "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
+    "urls": [
+      "https://huggingface.co/TheBloke/CodeLlama-70B-Instruct-GGUF/resolve/main/codellama-70b-instruct.Q4_K_M.gguf"
+    ],
+    "sha256": "3ccb06c4c25e12130c30812b1739110d8c059f09ad2805edb655445bbfb0e4cc"
+  },
+  {
+    "name": "CodeLlama-13B",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-13b-hf",
+    "license_name": "Llama 2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+    "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
+    "urls": [
+      "https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q8_0.gguf"
+    ],
+    "sha256": "97c5a3aaae76ccbc69800cd2fd73ba6a94cd14a7d26d6be1d3c38163f449bdd6"
+  },
+  {
+    "name": "CodeLlama-13B4bit",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-13b-hf",
+    "license_name": "Llama 2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+    "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
+    "urls": [
+      "https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q4_K_M.gguf"
+    ],
+    "sha256": "48cc5600c5e35b1226208a53b1871f50efb15764232babaef23e2264c285d7d9"
+   },
+   {
+    "name": "DeepseekCoder-33B",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF",
+    "urls": [
+      "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF/blob/main/deepseek-coder-33b-instruct.Q3_K_M.gguf"
+    ],
+    "sha256": "09622123d013fb958ca12cb7ab13498dac59df36a643a93c9f98ffa182ad1fb6"
   }
 ]
