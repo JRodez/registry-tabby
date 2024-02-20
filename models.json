@@ -168,7 +168,7 @@
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
     "provider_url": "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF",
     "urls": [
-      "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF/blob/main/deepseek-coder-33b-instruct.Q3_K_M.gguf"
+      "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF/resolve/main/deepseek-coder-33b-instruct.Q3_K_M.gguf"
     ],
     "sha256": "09622123d013fb958ca12cb7ab13498dac59df36a643a93c9f98ffa182ad1fb6"
   }
