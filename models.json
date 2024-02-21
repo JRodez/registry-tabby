@@ -173,7 +173,7 @@
     "sha256": "09622123d013fb958ca12cb7ab13498dac59df36a643a93c9f98ffa182ad1fb6"
   },
   {
-    "name": "Everyone-Coder-4x7b",
+    "name": "Everyone-Coder-4x7B",
     "license_name": "Deepseek License",
     "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
     "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
