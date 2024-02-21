@@ -171,5 +171,38 @@
       "https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF/resolve/main/deepseek-coder-33b-instruct.Q3_K_M.gguf"
     ],
     "sha256": "09622123d013fb958ca12cb7ab13498dac59df36a643a93c9f98ffa182ad1fb6"
+  },
+  {
+    "name": "Everyone-Coder-4x7b",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF",
+    "urls": [
+      "https://huggingface.co/TheBloke/Everyone-Coder-4x7b-Base-GGUF/resolve/main/everyone-coder-4x7b-base.Q8_0.gguf"
+    ],
+    "sha256": "fd6ff32052310d9da44a95cf8bac2a697292194e90de19e093eda5c4b5e2e462"
+  },
+  {
+    "name": "Everyone-Coder-33B",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/TheBloke/Everyone-Coder-33B-Base-GGUF",
+    "urls": [
+      "https://huggingface.co/TheBloke/Everyone-Coder-33B-Base-GGUF/resolve/main/everyone-coder-33b-base.Q8_0.gguf"
+    ],
+    "sha256": "6e04a83481d90f63745964c19cebb51cfede0910af82a95229b75088a031e2c6"
+  },
+  {
+    "name": "Mistral-7B-Code-16K-qlora",
+    "license_name": "Deepseek License",
+    "license_url": "https://github.com/deepseek-ai/deepseek-coder/blob/main/LICENSE-MODEL",
+    "prompt_template": "<｜fim▁begin｜>{prefix}<｜fim▁hole｜>{suffix}<｜fim▁end｜>",
+    "provider_url": "https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF",
+    "urls": [
+      "https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q8_0.gguf"
+    ],
+    "sha256": "23c065fb9c815741b667b3784c44206efe6ac77d80589e89fda420e8545a670e"
   }
 ]
